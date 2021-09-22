@@ -1,0 +1,19 @@
+<p>exercise1 </p>
+
+<p> 
+Attribut1 === {{attribut1}} : Interpolation de string</p>
+<div>
+Attribut2 === <input [type]= "attribut2.type"  />  binding de propriété : {{attribut2.type}}
+</div>
+<div>
+Attribut3 ===      <input [type]= "'text'" [(ngModel)]= "attribut3" />  Dual Binding
+<li>
+echo : {{attribut3}}
+</li>
+<button (click)="changeAttribut2(attribut3)"> Change type attribut2 avec attribut3 </button>
+</div>
+
+
+
+
+
